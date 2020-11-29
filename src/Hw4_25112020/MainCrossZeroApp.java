@@ -73,7 +73,7 @@ public class MainCrossZeroApp {
         int x;
         int y;
         do {
-            System.out.println("input coord X Y");
+            System.out.println("Ваш ход: X Y");
             x = sc.nextInt() - 1;
             y = sc.nextInt() - 1;
         } while (!isCellValid(y, x));
